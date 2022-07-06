@@ -49,7 +49,7 @@ fileConn<-file("dominostats.json")
 writeLines(toJSON(diagnostics), fileConn)
 close(fileConn)
 
-save(lm_model, file="/mnt/models/R_linear_model.Rda")
+save(lm_model, file="/mnt/artifacts/results/R_linear_model.Rda")
 
 # install.packages("SHAPforxgboost")
 # install.packages("SHAPforxgboost")
