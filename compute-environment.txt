@@ -1,4 +1,4 @@
 This example code has been tested with Domino Standard Environment Py3.8 R4.1 with following dockefile instructions.
 
-RUN pip install --user auto-sklearn
+RUN pip install --user auto-sklearn shiny
 RUN pip install --user -f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
